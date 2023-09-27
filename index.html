@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" id="top-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://vectorseek.com/wp-content/uploads/2023/07/Barbie-Icon-Vector.png"
+              class="doll-logo"
+              alt="Doll silhouette logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#cast">Cast</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#synopsis">Synopsis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#soundtrack">Soundtrack</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="home">
+      <div class="barbie-main">
+        <div class="ken">
+          <img src="./images/ken.png" class="ken-img" alt="Ken" />
+        </div>
+        <div class="logo">
+          <div class="she-is">
+            <h1>
+              Life is your <br />
+              creation!
+            </h1>
+          </div>
+          <img
+            src="https://vectorseek.com/wp-content/uploads/2023/07/Barbie-Movie-2023-Logo-Vector.png"
+            class="barbie-logo"
+            alt="Barbie logo"
+          />
+        </div>
+        <div class="barbie">
+          <img
+            src="./images/barbie.png"
+            class="beach-barbie"
+            alt="Barbie in beach outfit"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="cast">
+      <div class="cast-main">
+        <div>
+          <h2>
+            MEET THE <br />
+            CAST
+          </h2>
+          <br />
+          <div>
+            <img
+              src="https://vectorseek.com/wp-content/uploads/2023/08/Barbie-and-Ken-Logo-Vector.svg-.png"
+              class="kenbarbie"
+              alt="Ken and Barbie"
+            />
+          </div>
+        </div>
+
+        <div class="centered-carousel">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="7"
+                aria-label="Slide 8"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="8"
+                aria-label="Slide 9"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="9"
+                aria-label="Slide 10"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="10"
+                aria-label="Slide 11"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://variety.com/wp-content/uploads/2023/04/Fs3wHN8akAAJF08.jpeg?w=1024"
+                  class="d-block w-100"
+                  alt="Margot Robbie"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://variety.com/wp-content/uploads/2023/04/Fs3zzy_aMAAyCNC.jpeg?w=1024"
+                  class="d-block w-100"
+                  alt="Ryan Gosling"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/4/14/asset/e294e5650208/sub-buzz-640-1680617129-5.jpg?downsize=600:*&output-format=auto&output-quality=auto"
+                  class="d-block w-100"
+                  alt="America Ferrera"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/4/14/asset/2bcbe903fb97/sub-buzz-1718-1680617106-3.jpg?downsize=600:*&output-format=auto&output-quality=auto"
+                  class="d-block w-100"
+                  alt="Ariana Greenblatt"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/4/14/asset/3649f02a4d03/sub-buzz-5137-1680617093-3.jpg?downsize=600:*&output-format=auto&output-quality=auto"
+                  class="d-block w-100"
+                  alt="Emma Mackey"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/4/14/asset/91858abe2c53/sub-buzz-2318-1680617051-1.jpg?downsize=600:*&output-format=auto&output-quality=auto"
+                  class="d-block w-100"
+                  alt="Ncuti Gatwa"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/4/14/asset/e294e5650208/sub-buzz-636-1680616997-1.jpg?downsize=600:*&output-format=auto&output-quality=auto"
+                  class="d-block w-100"
+                  alt="Simu Liu"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/4/14/asset/91858abe2c53/sub-buzz-2303-1680616980-6.jpg?downsize=600:*&output-format=auto&output-quality=auto"
+                  class="d-block w-100"
+                  alt="Will Ferrell"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/4/14/asset/2bcbe903fb97/sub-buzz-1722-1680617297-4.jpg?downsize=600:*&output-format=auto&output-quality=auto"
+                  class="d-block w-100"
+                  alt="Helen Mirren"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="synopsis">
+      <div class="synopsis-main">
+        <div class="card-centered">
+          <div class="card" class="barbieland">
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1400/1*o_VkjTjbZ9K2UmIQHq_bvg.png"
+              class="card-img-top"
+              alt="Barbieland"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                In Barbieland, a Barbie doll faces expulsion because she doesn't
+                conform to the traditional standards of perfection. Her unique
+                eccentricity leads her on a journey into the real world. Upon
+                her return to Barbieland to rescue it, she discovers that true
+                perfection lies within and that self-belief is the key to
+                happiness.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="synopsis-title">
+          <h2>SYNOPSIS</h2>
+          <p class="synopsis-quote">
+            “Humans only have one ending. <br />
+            Ideas live forever.”
+          </p>
+          <div>
+            <img
+              src="https://vectorseek.com/wp-content/uploads/2023/08/Barbie-3d-Inflate-Logo-Vector.png"
+              class="barbie-3d"
+              alt="barbie"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card-centered">
+        <div class="cards-synopsis">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://static.independent.co.uk/2023/07/20/16/World_Premiere_of__Barbie__34860.jpg?width=1200&height=1200&fit=crop"
+              alt="Greta Gerwig"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Greta Gerwig is an accomplished actress, playwright,
+                screenwriter, and director. Known for her collaborations with
+                Noah Baumbach and her solo directorial debut, "Lady Bird,"
+                Gerwig's career encompasses a range of critically acclaimed
+                films. Gerwig's journey into filmmaking began with indie
+                projects, and her breakthrough came with "Frances Ha" in 2012.
+                She later wrote and directed the highly praised "Lady Bird" in
+                2017, solidifying her position as a prominent figure in
+                contemporary cinema.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://i2-prod.mirror.co.uk/incoming/article30066825.ece/ALTERNATES/s1200c/230331_SHOT_01_141_R4_QC.jpg"
+              class="card-img-top"
+              alt="Margot Robbie"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Margot Elise Robbie is an Australian actress known for her
+                breakout role as Naomi Lapaglia in "The Wolf of Wall Street"
+                (2013). She founded her production company, LuckyChap
+                Entertainment, in 2014. Robbie gained acclaim for her portrayal
+                of Tonya Harding in "I, Tonya" (2017) and played the iconic DC
+                comics character Harley Quinn in "Suicide Squad" (2016).
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://static.independent.co.uk/2023/07/10/18/newFile-2.jpg?width=1200&height=1200&fit=crop"
+              class="card-img-top"
+              alt="Ryan Gosling"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Ryan Gosling began his career as a singer on "The Mickey Mouse
+                Club" and transitioned to acting, gaining critical acclaim for
+                his role in "The Believer" (2001). He achieved widespread
+                recognition after starring in "The Notebook" (2004) and received
+                an Academy Award nomination for "Half Nelson" (2006). Gosling
+                has since become a celebrated actor known for roles in "La La
+                Land" (2016), "Blade Runner 2049" (2017), and more, solidifying
+                his place as one of his generation's finest talents.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="gallery1">
+        <div class="gallery-quote">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner" style="width: 100%;">
+              <div class="carousel-item active" style="width: 100%;">
+                <img
+                  src="https://ntvb.tmsimg.com/assets/p13472534_v_h8_ae.jpg?w=1280&h=720"
+                  class="d-block w-100"
+                  alt="barbie ken car"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNDg0MGQwODEtM2RlNi00Yjk4LTllODktOGFmMzgyYTdhOTljXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg"
+                  class="d-block w-100"
+                  alt="barbie red lips"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNzBkOGQwNDktN2Y3Yy00NWU1LWEyOTYtZTU5ZDRiYWViYjBmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX2160_.jpg"
+                  class="d-block w-100"
+                  alt="barbie and ken"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10078864.jpg"
+                  class="d-block w-100"
+                  alt="barbies"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10078893.jpg"
+                  class="d-block w-100"
+                  alt="barbie sleeping"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10079014.jpg"
+                  class="d-block w-100"
+                  alt="barbie street"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10079046.jpg"
+                  class="d-block w-100"
+                  alt="barbie and ken "
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10079151.jpg"
+                  class="d-block w-100"
+                  alt="ken and ken"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10079371.jpg"
+                  class="d-block w-100"
+                  alt="barbie at the weird barbie house"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10079543.jpg"
+                  class="d-block w-100"
+                  alt="barbie mermaid"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10079580.jpg"
+                  class="d-block w-100"
+                  alt="real world sign"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdni.fancaps.net/file/fancaps-movieimages/10079958.jpg"
+                  class="d-block w-100"
+                  alt="barbie and girls"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <p>
+              “It is the best day ever. So was yesterday, and so is <br />
+              tomorrow, and every day from now until forever.”
+            </p>
+          </div>
+          <div>
+            <img
+            src="https://vectorseek.com/wp-content/uploads/2023/08/Barbie-B-Letter-Logo-Vector.png"
+            class="b3d alt=" B 3d">
+          </div>
+        </div>
+
+        <div class="trailer-container">
+          <h2>GALLERY</h2>
+          <iframe
+            class="trailer"
+            width="600"
+            height="400"
+            src="https://www.youtube.com/embed/pBk4NYhWNMM?si=YdRDaUPtKeZnW6lb"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="gallery-2">
+            <div
+              id="carouselExampleFade2"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner" style="width: 100%;">
+                <div class="carousel-item active" style="width: 100%;">
+                  <img
+                    src="https://variety.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-11-at-4.33.33-PM.png"
+                    class="d-block w-100"
+                    alt="barbie mirror"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://parade.com/.image/t_share/MTk0NDg3MzE0ODAwNDUzMTI1/barbie-movie-2023-margot-robbie.webp"
+                    class="d-block w-100"
+                    alt="barbie black and white bathsuit"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://www.pluggedin.com/wp-content/uploads/2023/07/barbie-1024x587.jpg"
+                    class="d-block w-100"
+                    alt="barbie and ken"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://i5.walmartimages.com/asr/39a5184a-002b-4c07-8ad0-651100f0715a.ca2019c12f8d45832880643a7631e5bf.jpeg"
+                    class="d-block w-100"
+                    alt="barbies"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://variety.com/wp-content/uploads/2023/07/barbie2-1.jpg?w=1000"
+                    class="d-block w-100"
+                    alt="barbie party"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.thedirect.com/media/photos/Barbie-movie-040423-08-2000-fe100670c5124669aaf3a1e9daa7d454.jpg"
+                    class="d-block w-100"
+                    alt="barbie pink jumpsuit"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://www.spectator.co.uk/wp-content/uploads/2023/07/Cinema-2.jpg?w=1500"
+                    class="d-block w-100"
+                    alt="barbie driving"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://www.thesun.co.uk/wp-content/uploads/2023/05/newspress-collage-22495510-1685136298367.jpg?1685139920&strip=all&quality=100&w=1920&h=1333&crop=1"
+                    class="d-block w-100"
+                    alt="barbie and ken detention"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://www.odeon.co.uk/media/iaqfl1vm/rev-1-barbie-tp-0004_high_res_jpeg.jpg"
+                    class="d-block w-100"
+                    alt="barbie president"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://christandpopculture.com/wp-content/uploads/2023/08/crying-barbie.jpg"
+                    class="d-block w-100"
+                    alt="barbie crying"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://media.architecturaldigest.com/photos/646517091d0eb6ccc5e92c90/16:9/w_4335"
+                    class="d-block w-100"
+                    alt="barbie neighbourhood"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://hips.hearstapps.com/hmg-prod/images/screenshot-2023-07-10-at-1-50-44-pm-64ac44fbd9118.png?crop=0.8827160493827161xw:1xh;center,top"
+                    class="d-block w-100"
+                    alt="ken"
+                  />
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleFade2"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleFade2"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="soundtrack">
+      <h2>SOUNDTRACK</h2>
+      <div class="songs-container">
+        <div>
+          <iframe
+            class="song-videos"
+            width="400"
+            height="315"
+            src="https://www.youtube.com/embed/AqG0GF_LA0Q?si=fzbF5g59rLyq9aCS"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="song-videos"
+            width="400"
+            height="315"
+            src="https://www.youtube.com/embed/CUj2AWEJnwQ?si=JPmqk13GNIiHu3ft"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="song-videos"
+            width="400"
+            height="315"
+            src="https://www.youtube.com/embed/y7jzzvKxgZ8?si=mn-E6zNd6H00Fwjw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="album-playlist">
+          <img
+            src="https://vectorseek.com/wp-content/uploads/2023/07/Come-on-Barbie-Lets-go-Party-Logo-Vector.svg-.png"
+            class="party-logo"
+            alt=""
+          />
+          <iframe
+            class="spotify"
+            style="border-radius: 12px;"
+            src="https://open.spotify.com/embed/album/0BaIaHcyBXuOWeM4Aas4EW?utm_source=generator"
+            width="80%"
+            height="352"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <button
+            onclick="window.open('https://www.barbiethealbum.com/', '_blank');"
+            class="shop-btn"
+          >
+            Shop Now
+          </button>
+        </div>
+        <div>
+          <iframe
+            class="song-videos"
+            width="400"
+            height="315"
+            src="https://www.youtube.com/embed/cW8VLC9nnTo?si=qKrQzcBGE8oXejlG"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="song-videos"
+            width="400"
+            height="315"
+            src="https://www.youtube.com/embed/OiC1rgCPmUQ?si=tdto1K5k5wQnk-3E"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="song-videos"
+            width="400"
+            height="315"
+            src="https://www.youtube.com/embed/ru1LC9lW20Q?si=bheXbawWN_hCvciA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-menu">
+          <a href="#cast">Cast</a>
+          <a href="#synopsis">Synopsis</a>
+          <a href="#home">
+            <img
+              src="https://vectorseek.com/wp-content/uploads/2023/07/Barbie-Icon-Vector.png"
+              class="doll-logo"
+              alt="doll silhouette logo"
+            />
+          </a>
+          <a href="#gallery">Gallery</a>
+          <a href="#soundtrack">Soundtrack</a>
+        </div>
+        <div class="developedby">
+          <p>
+            © 2023 Developed and designed with love ❤
+            <a href="https://github.com/NicoleSanG" target="_blank"
+              >Nicole Santamaría</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
